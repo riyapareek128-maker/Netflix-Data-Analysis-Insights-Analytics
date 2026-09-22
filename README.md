@@ -135,7 +135,7 @@ The following screenshots highlight key SQL queries, analysis, and results from 
 
 Initial exploration of the Netflix dataset, including total records, content types, and missing-value checks.
 
-![Record count](projectscreenshots/record_count.png)
+![Movie Duration Analysis](projectscreenshots/record_count.png)
 
 ---
 
@@ -163,7 +163,7 @@ A SQL window function is used to calculate the cumulative number of Netflix titl
 
 A Common Table Expression (CTE) and `DENSE_RANK()` are used to rank movies within each release year based on their duration.
 
-![Movie Ranking](projectscreenshots/movie_rankin_ by_release_year.png)
+![Movie Ranking](projectscreenshots/movie_ranking_by_release_year.png)
 
 ---
 
