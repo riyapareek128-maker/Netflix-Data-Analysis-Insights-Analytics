@@ -1,0 +1,25 @@
+Basic Level (1 - 5)
+
+1.    Count the number of Movies vs TV Shows
+2.    Find the most common rating for Movies and TV Shows
+3.    List all Movies released in a specific year (e.g., 2021)
+4.    Find the top 5 countries with the most content on Netflix
+5.    Identify the longest Movie duration
+Intermediate Level (6 - 13)
+6.    Find all content added in the last 5 years
+7.    Find all Movies/TV Shows by Director 'Kirsten Johnson'
+8.    List all TV Shows with more than 2 Seasons
+9.    Categorize Content Based on Keywords in Description
+10.   Find directors who have directed both Movies and TV Shows
+11.   List all Movies that are Documentaries
+12.   Count the total number of items released each year after 2015
+13.   Find top 3 genres (listed_in) with the highest number of titles
+Advanced Level (14 - 20)
+14.   Calculate running total of content added over release years
+15.   Find the actor who has appeared in the most content
+16.   Rank movies within each release year based on duration
+17.   Find percentage of Movies vs TV Shows
+18.   Identify multi-country co-productions vs single country content
+19.   Find average movie duration for each rating category
+20.   Categorize movie duration (Short, Medium, Long)
+     	
