@@ -262,12 +262,14 @@ Netflix-Data-Analysis-SQL/
 │
 ├── Netflix Data Analysis & Insights Analytics - SQL Project.sql
 │
-└── screenshots/
-    ├── categorize_movie_duration.png
-    ├── movie_director_analysis.png
-    ├── movie_ranking_by_release_year.png
-    ├── record_count.png
-    └── running_total_analysis.png
+├── Data
+│
+└──screenshots/
+      ├── categorize_movie_duration.png
+      ├── movie_director_analysis.png
+      ├── movie_ranking_by_release_year.png
+      ├── record_count.png
+      └── running_total_analysis.png
 
 ## 🛠️ Tools & Technologies
 MySQL
