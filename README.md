@@ -135,7 +135,7 @@ The following screenshots highlight key SQL queries, analysis, and results from 
 
 Initial exploration of the Netflix dataset, including total records, content types, and missing-value checks.
 
-![Record count](projectscreenshots/Record_count.png)
+![Record count](projectscreenshots/record_count.png)
 
 ---
 
@@ -147,7 +147,7 @@ Movies are categorized into three duration categories using SQL `CASE` statement
 - Medium — 60–120 minutes
 - Long — More than 120 minutes
 
-![Movie Director Analysis](projectscreenshots/Movie_Director_Analysis.png)
+![Movie Director Analysis](projectscreenshots/movie_director_analysis.png)
 
 ---
 
@@ -155,7 +155,7 @@ Movies are categorized into three duration categories using SQL `CASE` statement
 
 A SQL window function is used to calculate the cumulative number of Netflix titles across different release years.
 
-![Running Total Analysis](screenshots/Running_Total_Analysis.png)
+![Running Total Analysis](projectscreenshots/running_total_analysis.png)
 
 ---
 
@@ -163,7 +163,7 @@ A SQL window function is used to calculate the cumulative number of Netflix titl
 
 A Common Table Expression (CTE) and `DENSE_RANK()` are used to rank movies within each release year based on their duration.
 
-![Movie Ranking](screenshots/Movie_Rankin_ by_Release_Year.png)
+![Movie Ranking](projectscreenshots/movie_rankin_ by_release_year.png)
 
 ---
 
@@ -171,7 +171,7 @@ A Common Table Expression (CTE) and `DENSE_RANK()` are used to rank movies withi
 
 Example of SQL analysis using filtering, string functions, conditional logic, and content categorization.
 
-![Categorize_movie_duration](screenshots/Categorize_movie_duration.png)
+![Categorize_movie_duration](projectscreenshots/categorize_movie_duration.png)
 
 ---
 
