@@ -129,11 +129,11 @@ The analysis progresses from basic SQL queries to advanced analytical techniques
 
 The following screenshots highlight key SQL queries, analysis, and results from the Netflix Data Analysis project.
 
-### 🔎 1. Data Exploration & Data Quality
+### 💻 1. Categorize_movie_duration
 
-Initial exploration of the Netflix dataset, including total records, content types, and missing-value checks.
+Example of SQL analysis using filtering, string functions, conditional logic, and content categorization.
 
-![Project Analysis](screenshots/record_count.png)
+![Categorize Movie Duration](screenshots/categorize_movie_duration.png)
 
 ### ⏱️ 2. Movie Director Analysis
 
@@ -145,23 +145,23 @@ Movies are categorized into three duration categories using SQL `CASE` statement
 
 ![Movie Director Analysis](screenshots/movie_director_analysis.png)
 
-### 📈 3. Running Total Analysis
-
-A SQL window function is used to calculate the cumulative number of Netflix titles across different release years.
-
-![Running Total Analysis](screenshots/running_total_analysis.png)
-
-### 🏆 4. Movie Ranking by Release Year
+### 🏆 3. Movie Ranking by Release Year
 
 A Common Table Expression (CTE) and `DENSE_RANK()` are used to rank movies within each release year based on their duration.
 
 ![Movie Ranking](screenshots/movie_ranking_by_release_year.png)
 
-### 💻 5. Categorize_movie_duration
+### 🔎 4. Data Exploration & Data Quality
 
-Example of SQL analysis using filtering, string functions, conditional logic, and content categorization.
+Initial exploration of the Netflix dataset, including total records, content types, and missing-value checks.
 
-![Categorize Movie Duration](screenshots/categorize_movie_duration.png)
+![Project Analysis](screenshots/record_count.png)
+
+### 📈 5. Running Total Analysis
+
+A SQL window function is used to calculate the cumulative number of Netflix titles across different release years.
+
+![Running Total Analysis](screenshots/running_total_analysis.png)
 
 ---
 
