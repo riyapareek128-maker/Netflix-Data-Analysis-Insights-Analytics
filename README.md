@@ -135,7 +135,7 @@ The following screenshots highlight key SQL queries, analysis, and results from 
 
 Initial exploration of the Netflix dataset, including total records, content types, and missing-value checks.
 
-![Record Count](screenshots/record_count.png)
+![Project Analysis](screenshots/record_count.png)
 
 ---
 
