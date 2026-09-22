@@ -7,7 +7,6 @@
 The project uses a Netflix dataset containing information about *Movies, TV Shows, directors, cast, countries, ratings, genres, release years, durations, and descriptions*. SQL is used to analyze content distribution, rating patterns, country-wise production, genre trends, director and actor contributions, release-year trends, and movie duration.
 
 The primary objective of this project is to demonstrate how SQL can transform raw content data into meaningful insights that support *data-driven analysis and better understanding of Netflix's content trends*.
-
 ---
 
 ## 🎯 Project Objectives
@@ -39,6 +38,7 @@ The project begins by creating and selecting the MySQL database:
 CREATE DATABASE netflix_db;
 
 USE netflix_db;
+```
 
 ---
 
@@ -91,7 +91,6 @@ USE netflix_db;
 | 19 | What is the average Movie duration for each rating category?        | AVG(), GROUP BY                  |
 | 20 | How can Movies be categorized by duration?                          | CASE, GROUP BY                   |
 
-
 ---
 
 🧠 SQL Concepts Used
@@ -123,9 +122,8 @@ Percentage Calculations
 Data Categorization
 
 The analysis progresses from basic SQL queries to advanced analytical techniques using CTEs, subqueries, ranking functions and window functions.
-
-## 📊 Key Project Insights
 ---
+## 📊 Key Project Insights
 
 ## 📸 Query Results & Analysis Screenshots
 
@@ -137,8 +135,6 @@ Initial exploration of the Netflix dataset, including total records, content typ
 
 ![Project Analysis](screenshots/record_count.png)
 
----
-
 ### ⏱️ 2. Movie Director Analysis
 
 Movies are categorized into three duration categories using SQL `CASE` statements:
@@ -149,23 +145,17 @@ Movies are categorized into three duration categories using SQL `CASE` statement
 
 ![Movie Director Analysis](screenshots/movie_director_analysis.png)
 
----
-
 ### 📈 3. Running Total Analysis
 
 A SQL window function is used to calculate the cumulative number of Netflix titles across different release years.
 
 ![Running Total Analysis](screenshots/running_total_analysis.png)
 
----
-
 ### 🏆 4. Movie Ranking by Release Year
 
 A Common Table Expression (CTE) and `DENSE_RANK()` are used to rank movies within each release year based on their duration.
 
 ![Movie Ranking](screenshots/movie_ranking_by_release_year.png)
-
----
 
 ### 💻 5. Categorize_movie_duration
 
@@ -273,11 +263,11 @@ Netflix-Data-Analysis-SQL/
 ├── Netflix Data Analysis & Insights Analytics - SQL Project.sql
 │
 └── screenshots/
-    ├── data-exploration.png
-    ├── movie-duration-analysis.png
-    ├── running-total-analysis.png
-    ├── movie-ranking.png
-    └── sql-query-analysis.png
+    ├── categorize_movie_duration.png
+    ├── movie_director_analysis.png
+    ├── movie_ranking_by_release_year.png
+    ├── record_count.png
+    └── running_total_analysis.png
 
 ## 🛠️ Tools & Technologies
 MySQL
